@@ -235,7 +235,7 @@ public class Main2Activity extends AppCompatActivity {
         public void onAuthenticationSucceeded(
                 FingerprintManager.AuthenticationResult result) {
 
-          //Toast.makeText(context, "Success!", Toast.LENGTH_LONG).show();
+          Toast.makeText(context, "Success!", Toast.LENGTH_LONG).show();
 
             finish();
             Intent intent2=new Intent(Main2Activity.this,SuccessActivity.class);
