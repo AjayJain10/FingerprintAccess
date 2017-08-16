@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fingerprint Access</string>
+    <string name="instructions">
+    Place your registered fingertip on the FingerPrint Scanner to verify your identity</string>
+</resources>
