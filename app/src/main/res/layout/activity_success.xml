@@ -12,10 +12,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:textColor="#FF0000"
+        android:textColor="#f91313"
         android:textSize="40sp"
         android:gravity="center"
-        android:text="Fingerprint Authentication Success...!!!"/>
+        android:text="Fingerprint Authentication type Login Success...!!!"/>
 
 
 

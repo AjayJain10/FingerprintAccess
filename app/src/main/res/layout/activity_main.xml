@@ -1,20 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/fingerprint2"
     tools:context="com.example.ajayj.fingerprintaccess.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#81e634"
+        android:textSize="30sp"
+        android:textColor="#f91313"
+        android:textAlignment="center"
+        android:text="Login page"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        >
+        <EditText
+            android:id="@+id/fbnumberuser"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="UserName"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        app:passwordToggleEnabled="true"
+        >
+
+        <EditText
+            android:id="@+id/fbpassworduser"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Passsword"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+
+    <Button
+        android:id="@+id/fbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#f91313"
+        android:text="Click here to Try our new Fingerprint login"
+        />
 
     <Button
         android:id="@+id/abc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@mipmap/ic_launcher_round"
-        android:backgroundTint="@color/colorAccent"
+        android:background="@drawable/fingerprint"
         android:layout_alignParentBottom="true"
-        android:text="START" />
+        />
 
-</RelativeLayout>
+
+</LinearLayout>
